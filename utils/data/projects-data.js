@@ -27,8 +27,8 @@ export const projectsData = [
     {
         id: 3,
         name: 'MR22 Cups Web App',
-        description: `I designed and developed a comprehensive full-stack web application for 2Expedition. This app leverages a range of technologies to deliver a robust e-commerce platform, including NextJS for the frontend, Strapi as a headless CMS, GraphQL for efficient data querying,  The deployment is managed through Vercel and OnRender, with a focus on a seamless user experience and dynamic, responsive design using React Slick and Material UI.`,
-        tools: ['NextJS', 'Strapi', "Graphql", "Vercel", "TypeScript","OnRender","React Slick",'Material UI'],
+        description: `I designed and developed a comprehensive full-stack web application for 2Expedition. This app leverages a range of technologies to deliver a robust e-commerce platform, including NextJS for the frontend, Strapi as a headless CMS, GraphQL for efficient data querying,  The deployment is managed through Vercel and OnRender, with a focus on a seamless user experience and dynamic, responsive design using Material UI.`,
+        tools: ['NextJS', 'Strapi', "Graphql", "Vercel", "TypeScript","OnRender",'Material UI'],
         code: '',
         role: 'Full Stack Developer',
         demo: '',
