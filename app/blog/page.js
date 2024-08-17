@@ -1,15 +1,15 @@
- "use client";
+"use client";
 import { useState, useEffect } from "react";
 import { certificateData } from "../../utils/data/certificates";
 import BlogCard from "../components/homepage/blog/blog-card";
 
-function page() {
+function Page() {  // Updated here
   const [certificates, setCertificates] = useState([]);
 
   useEffect(() => {
-
     setCertificates(certificateData);
   }, []);
+
   return (
     <div className="py-8">
       <div className="flex justify-center my-5 lg:py-8">
@@ -34,4 +34,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;  // Updated here
